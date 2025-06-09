@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+*.env
+
+# Jupyter & Colab notebook checkpoints and temp files
+.ipynb_checkpoints/
+*.ipynb~
+*.nbconvert.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Output or temporary files
+*.out
+*.tmp
+*.bak
+
+# Dependency lock files (depending on the tool you use)
+poetry.lock
+Pipfile.lock
+
+# Secrets or API keys
+.env
+.openai_key
+*.secrets
+credentials.json
+
+# LangChain persistence (if used)
+lc-*
+
+# VSCode settings (optional, depending on editor)
+.vscode/
+
+# Build artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Testing output
+htmlcov/
+coverage.*
+.cache
+pytest_cache/
