@@ -1,6 +1,6 @@
 # Test Ollama UNC
 
-Dockerized Kedro to run Spark.
+Dockerized JupyterLab with Langchain library to test Ollama UNC.
 
 ## Usage
 
@@ -15,6 +15,13 @@ See [Install Docker Desktop](https://docs.docker.com/desktop/).
 ### Run container
 
 * Run the script `./docker/run.sh` on Linux or create the container from the previous builded image.
+* Execute
+```sh
+docker logs rag
+```
+* Locate a url like `http://127.0.0.1:8888/lab?token=....` in the output.
+
+* Copy the url and paste into a web browser to see JupyterLab interface.
 
 ### Docker image customization
 
